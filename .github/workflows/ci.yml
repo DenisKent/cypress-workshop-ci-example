@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies 📦
         run: npm ci
 
-      - name: Show Cypress info ℹ️
-        run: npx cypress info
-
       - name: Verify Cypress can run 🏃‍♂️
         run: npx cypress verify
 
